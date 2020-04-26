@@ -1,0 +1,103 @@
+
+body {
+	
+	background-color: lightblue;
+}
+h1 {
+	font-size: 25pt;
+	color : darkcyan;
+	padding: 15px 0 18px 0;
+	margin: 0 0 10px 0;
+	text-align : center;
+	font-family: : "Times New Roman",Times,serif;
+	font-weight: bolder;
+}
+h1 span {
+	border: 4px 
+	padding: 10px;
+}
+
+
+p {
+
+	padding: 0;
+	margin: 0;
+}
+.submit {
+	text-align: right;
+	background-color: #3FB6B2;
+	padding: 12px 45px;
+	border-radius: 5px;
+	cursor: pointer;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	margin: 0;
+	font-weight: bold;
+}
+
+button {
+	float: right;
+
+}
+li {
+	font-size: 25pt;
+}
+nav {
+	
+	width: 90%;
+	height: 40px;
+	
+	line-height: 30px;
+	padding-bottom: : 20px;
+}
+nav ul li {
+	color : snow;
+	
+	width : 15%;
+	height: 30px;
+	
+	float: left;
+	list-style: none;
+	text-align: center;
+} 
+nav ul li a{
+	text-decoration: none;
+	color : snow;
+}
+nav ul li a:hover {
+	color :black;
+}
+nav ul li:hover {
+	color: black;
+}
+
+nav ul li:hover ul {
+	display: block;
+}
+nav ul li ul {
+	display: none;
+}
+nav ul li ul li {
+	width: 60%;
+	height: 70px;
+	
+}
+nav ul li ul li:hover {
+	color : black;
+}
+.footer{
+	width: 100%;
+	height: 40px;
+	margin-top: 450px;
+	
+}
+.error {
+	width :auto;
+	background-color:red;
+
+}
+
+.hapus {
+	margin-top :500px;
+}
